@@ -9,16 +9,20 @@ body {
   padding: 0;
 }
 
+/* SIDEBAR */
 .Sidebar {
   height: 100%;
-  width: 300px;
-  background-color: #465872;
+  width: 200px;
+  background: linear-gradient(to left, #28152F, #111835);
+  margin-top: -16px;
 }
 
 .SidebarList {
   height: auto;
   width: 100%;
   padding: 0;
+  position: sticky;
+  top: 2rem;
 }
 
 .SidebarList .row {
@@ -31,7 +35,8 @@ body {
   color: white;
   justify-content: center;
   align-items: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .SidebarList .row:hover {
@@ -50,5 +55,13 @@ body {
 }
 
 .row #title {
-flex: 70%;
+  flex: 70%;
+}
+
+/* Header */
+
+.Header {
+  height: 6%;
+  background: linear-gradient(to left, rgb(255, 255, 255), #111835);
+  margin-bottom: 0;
 }
