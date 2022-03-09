@@ -1,7 +1,8 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: #999999;
+  /* background-color: #999999; */
+  overflow: hidden;
 }
 
 body {
@@ -9,12 +10,14 @@ body {
   padding: 0;
 }
 
-/* SIDEBAR */
+/* Sidebar */
+
 .Sidebar {
   height: 100%;
   width: 200px;
-  background: linear-gradient(to left, #28152F, #111835);
-  margin-top: -16px;
+  background: linear-gradient(to left, #262d47, #111835);
+  display: inline-block;
+  box-shadow: 1px 5px 5px rgb(0, 0, 0);
 }
 
 .SidebarList {
@@ -41,11 +44,14 @@ body {
 
 .SidebarList .row:hover {
   cursor: pointer;
-  background-color: #111835;
+  background-color: #344899;
+  box-shadow: 1px 2px 5px rgb(0, 0, 0);
 }
 
 .SidebarList #active {
-  background-color: #111835;
+  background-color: #344899;
+  box-shadow: 1px 2px 5px rgb(0, 0, 0);
+
 }
 
 .row #icon {
@@ -61,7 +67,21 @@ body {
 /* Header */
 
 .Header {
-  height: 6%;
+  height: 8%;
   background: linear-gradient(to left, rgb(255, 255, 255), #111835);
   margin-bottom: 0;
+  box-shadow: 10px 2px 5px rgb(0, 0, 0);
+}
+
+Header img {
+  max-width: 6%;
+  position: relative;
+  bottom: 23px;
+  left: 20px;
+}
+
+/* Home */
+
+.HomeBody {
+  display: inline-block;
 }

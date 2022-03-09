@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { SidebarData } from "./SidebarData";
+import { Outlet, Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
