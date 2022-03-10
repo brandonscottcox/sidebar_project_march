@@ -5,7 +5,9 @@ import HeaderLogo from "../Images/HeaderLogo.png"
 export default function Header() {
 return (
     <header className="Header">
-        <img src={HeaderLogo} alt="Brandon Cox"/>
+        <a href="/home">
+        <img src={HeaderLogo} alt="Brandon Cox" to="/home"/>
+        </a>
     </header>
 )
 }
